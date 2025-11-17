@@ -1,0 +1,14 @@
+LMN;Legal Marijuana Now;01
+GLC;Grassroots - Legalize Cannabis;02
+R;Republican;03
+DFL;Democratic-Farmer-Labor;04
+IA;Independence-Alliance;05
+GP;Green Party;06
+IND;Independent;07
+IND;Independent;08
+SLP;Socialism and Liberation;09
+SWP;Socialist Workers Party;10
+VPM;Veterans Party - Minnesota;11
+LIB;Libertarian Party;12
+NP;Nonpartisan;90
+WI;WRITE-IN;99
