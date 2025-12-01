@@ -1,0 +1,204 @@
+Office of the Minnesota Secretary of State (OSS)
+
+2025 Municipal and School District General Elections and Special Election Senate District 29 and 47 Results
+----------------------------------------------------
+
+ - The filenames given below are part of the URLs on the Election Night Reporting website and used on the ftp site.
+ - The files on OSS web and ftp sites contain ASCII text, separated by semicolons. 
+ - Information in the supporting files is subject to correction and change up until election day.
+ - Election results may change after being reported initially on election night.
+ - Files with precinct-level results will not be available until the morning after election day.
+ - For questions, contact OSS Elections Division at elections.dept@state.mn.us
+
+Last revised 10/29/2025
+
+
+----------------------------------------------------
+Election Results Files
+----------------------------------------------------
+
+Results are formatted in flat files which have one row for each candidate and question response in each geographic area (statewide, county, district, or precinct, depending on the file).
+
+Election Results (various filenames)
+
+	State
+	County ID (if applicable)
+	Precinct name (if applicable)
+	Office ID
+	Office name 
+	District* 
+	Candidate order code
+	Candidate name (First/Last/Suffix all in one field)
+	Suffix (not used)
+	Incumbent code (not used)
+	Party abbreviation**
+	Number of precincts reporting
+	Total number of precincts voting for the office
+	Votes for candidate
+	Percentage of votes for candidate out of total votes for Office
+	Total number of votes for Office in area
+
+*Note: The District field is used for County Commissioner districts; school district numbers; and municipal FIPS codes. The District field is not used for city wards.
+**Note: All local candidates are non-partisan, although some Minneapolis candidates may identify with a party on the ballot. See Minneapolis Candidates and Parties at the bottom of this file for details.
+
+----------------------------------------------------
+
+Precinct Voting Statistics (pctstats.txt)
+
+	State
+	County ID
+	Precinct ID
+	Precinct Name 
+	Has Reported Statistics (1 = yes, 0 = no) 
+	Number of Voters Registered as of 7:00 a.m. Election Day
+	Number of Voters that Registered on Election Day 
+	Number of Signatures on the Polling Place Roster
+	Number of Regular, Military, and Overseas Absentee Ballots 
+	Number of Federal-Only Absentee Ballots
+	Number of President-Only Absentee Ballots 
+	Total Number Voted
+
+----------------------------------------------------
+Supporting Tables for Election
+----------------------------------------------------
+
+Parties (PartyTbl.txt)
+
+	Party Abbreviation
+	Party Name 
+	Party ID 
+
+Note: All local candidates are non-partisan, although some Minneapolis candidates may identify with a party on the ballot. See Minneapolis Candidates and Parties at the bottom of this file for details.
+
+----------------------------------------------------
+
+Counties (CntyTbl.txt)
+
+	County ID
+	County Name
+	Number of precincts
+
+----------------------------------------------------
+
+Municipalities with Elections (MunTbl.txt)
+
+	County ID
+	County Name
+	MCD FIPS Code
+	Municipality Name
+
+----------------------------------------------------
+
+Precincts (PrctTbl.txt)
+
+	County ID
+	Precinct ID 
+	Precinct Name
+	Congressional District 
+	Legislative District 
+	County Commissioner District 
+	Judicial District 
+	Soil and Water Conservation District 
+	MCD FIPS code
+	School District number
+
+----------------------------------------------------
+
+Municipal and School District Candidates (LocalCandTbl.txt)
+
+	Candidate ID (thirteen characters) 
+	Candidate Name (First/Last/Suffix all in one field)
+	Office ID
+	Office Title
+	County ID (home county if multi-county race)
+	MCD FIPS Code (if applicable)
+	School District Number (if applicable)
+
+Note: All local candidates are non-partisan, although some Minneapolis candidates may identify with a party on the ballot. See Minneapolis Candidates and Parties at the bottom of this file for details.
+Note: Semicolons in address fields have been replaced with the caret (^) character
+
+----------------------------------------------------
+
+Ballot Questions (BallotQuestions.txt)
+
+	County ID 
+	Office ID
+	MCD FIPS Code (if applicable)
+	School District Number (if applicable)
+	Question Number
+	Question Title
+	Question Body
+
+Note: Semicolons in Question fields have been replaced with the caret (^) character
+
+----------------------------------------------------
+
+School Districts (SchoolDistTbl.txt)
+
+	School District Number
+	School District Name
+	County ID 	
+	County Name
+
+----------------------------------------------------
+Minneapolis Candidates and Parties
+----------------------------------------------------
+
+Note: Apostrophes below have been replaced with the caret (^) character
+
+Candidate ID;Candidate Name;Office Title;Party Name
+4300020019001;DeWayne Davis;Mayor (Minneapolis);Democratic-Farmer-Labor
+4300020019002;Jazz Hampton;Mayor (Minneapolis);Democratic-Farmer-Labor
+4300020019003;Brenda Short;Mayor (Minneapolis);Democratic-Farmer-Labor
+4300020019004;Jeffrey Alan Wagner;Mayor (Minneapolis);Why Not Wagner
+4300020019005;Kevin Dwire;Mayor (Minneapolis);Socialist Workers Party
+4300020019006;Xavier Pauke;Mayor (Minneapolis);Protecting Tomorrow^s Dreams
+4300020019007;Laverne Turner;Mayor (Minneapolis);Independent
+4300020019008;Omar Fateh;Mayor (Minneapolis);Democratic-Farmer-Labor
+4300020019009;Troy A. Peterson;Mayor (Minneapolis);Momunist
+4300020019010;Kevin Ward;Mayor (Minneapolis);Nobody^s Party
+4300020019011;Adam Terzich;Mayor (Minneapolis);Renaissance
+4300020019012;Andrea Revel;Mayor (Minneapolis);For the People
+4300020019013;Jacob Frey;Mayor (Minneapolis);Democratic-Farmer-Labor
+4300020019014;Charlie McCloud;Mayor (Minneapolis);Independent
+4300020019015;Alejandro Richardson;Mayor (Minneapolis);Independent
+4300021019001;Elliott Payne;Council Member Ward 1 (Minneapolis);Democratic-Farmer-Labor
+4300021019002;Edwin B. Fruit;Council Member Ward 1 (Minneapolis);Socialist Workers Party
+4300021019003;Brian Strahan;Council Member Ward 1 (Minneapolis);Democratic-Farmer-Labor
+4300021119001;Michael Baskins;Council Member Ward 2 (Minneapolis);Democratic-Farmer-Labor
+4300021119002;Robin Wonsley;Council Member Ward 2 (Minneapolis);Democratic Socialist
+4300021119003;Shelley Madore;Council Member Ward 2 (Minneapolis);Democratic-Farmer-Labor
+4300021119004;Max Theroux;Council Member Ward 2 (Minneapolis);Democratic-Farmer-Labor
+4300021219001;Marcus Mills;Council Member Ward 3 (Minneapolis);Progressive Unity Independent
+4300021219002;Michael Rainville;Council Member Ward 3 (Minneapolis);Democratic-Farmer-Labor
+4300021319001;Leslie Davis;Council Member Ward 4 (Minneapolis);Tell The Truth
+4300021319002;Marvina Haynes;Council Member Ward 4 (Minneapolis);Democratic-Farmer-Labor
+4300021319003;LaTrisha M. Vetaw;Council Member Ward 4 (Minneapolis);Democratic-Farmer-Labor
+4300021419001;Miles G. Wilson;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021419002;Anndrea Young;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021419003;Ethrophic Burnett;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021419004;Jovan Northington;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021419005;Maurice L Ward;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021419006;Pearll Warren;Council Member Ward 5 (Minneapolis);Democratic-Farmer-Labor
+4300021519001;Jamal Osman;Council Member Ward 6 (Minneapolis);Democratic-Farmer-Labor
+4300021519002;Mohamoud Hassan;Council Member Ward 6 (Minneapolis);Democratic-Farmer-Labor
+4300021619001;Corey Ryan Vest;Council Member Ward 7 (Minneapolis);Democratic-Farmer-Labor
+4300021619002;Elizabeth Shaffer;Council Member Ward 7 (Minneapolis);Democratic-Farmer-Labor
+4300021619003;Katie Cashman;Council Member Ward 7 (Minneapolis);Democratic-Farmer-Labor
+4300021719001;Philip Galberth;Council Member Ward 8 (Minneapolis);Independent
+4300021719002;Josh Bassais;Council Member Ward 8 (Minneapolis);Democratic-Farmer-Labor
+4300021719003;Soren Stevenson;Council Member Ward 8 (Minneapolis);Democratic-Farmer-Labor
+4300021719004;Bob Sullentrop;Council Member Ward 8 (Minneapolis);Republican
+4300021819001;Daniel Orban;Council Member Ward 9 (Minneapolis);Independent
+4300021819002;Jason Chavez;Council Member Ward 9 (Minneapolis);Democratic-Farmer-Labor
+4300021919001;DeShanneon Grimes;Council Member Ward 10 (Minneapolis);Democratic-Farmer-Labor
+4300021919002;Aisha Chughtai;Council Member Ward 10 (Minneapolis);Democratic-Farmer-Labor
+4300021919003;Lydia Millard;Council Member Ward 10 (Minneapolis);Democratic-Farmer-Labor
+4300022019001;Jamison Whiting;Council Member Ward 11 (Minneapolis);Democratic-Farmer-Labor
+4300022019002;Jim Meyer;Council Member Ward 11 (Minneapolis);Budgetary Economic Stability
+4300022019003;Mariam DeMello;Council Member Ward 11 (Minneapolis);Democratic-Farmer-Labor
+4300022119001;Edward Bear Stops;Council Member Ward 12 (Minneapolis);Community Over Politics
+4300022119002;Becka Thompson;Council Member Ward 12 (Minneapolis);Democratic-Farmer-Labor
+4300022119003;Aurin Chowdhury;Council Member Ward 12 (Minneapolis);Democratic-Farmer-Labor
+4300022219001;Linea Palmisano;Council Member Ward 13 (Minneapolis);Democratic-Farmer-Labor
+4300022219002;Bob again Carney Jr;Council Member Ward 13 (Minneapolis);Climate Revolution Elephant
